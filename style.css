@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sogue;
+}
+
+body{
+  background-color:#fff;
+  color:#1a1a1a;
+}
+
+.navbar{
+  background-color:#111;
+  color:#fff;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 1rem 1rem;
+}
+
+.navbar .logo{
+  font-size:1.8rem;
+  font-weight:bold;
+  color:gold;
+}
+.navbar p{
+  color:red;
+  font-size:12px;
+  margin-left:0;
+  padding:0;
+}
+
+.nav-links{
+  list-style:none;
+  display:flex;
+  gap:1rem;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#f2f2f2;
+}
+
+.banner{
+  position:relative;
+  height:500px;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  padding-left:4rem;
+  overflow:hidden;
+  color:white;
+}
+
+.bg-image{
+  position:absolute;
+  top:0; left:0;
+  width:100%; height:100%;
+  background: url('fam.jpg') no-repeat center/cover;
+  filter:brightness(0.4);
+}
+
+.banner-text{
+  position:relative;
+  z-index:1;
+}
+
+.banner-text h1{
+  font-size:3rem;
+  color:gold;
+  text-align:center;
+}
+
+.banner-text p{
+  font-size:1.2rem;
+  margin:0.5rem;
+}
+
+.banner-btn{
+  background-color:red;
+  padding:0.5rem 1.5rem;
+  text-decoration:none;
+  border-radius:5px;
+  font-weight:bold;
+  color:black;
+}
+
+.product-section{
+  padding:3rem 2rem;
+}
+
+.section-title{
+  text-align:center;
+  font-size:2rem;
+  margin-bottom:2rem;
+  font-weight:bold;
+  
+}
+
+
+.product-grid{
+  display:flex;
+  gap:2rem;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.product-card{
+  background-color:#fff;
+box-shadow: 0 6px 12px rgba(0 ,0 ,0 ,0.15);
+  padding:1rem;
+  border-radius:10px;
+  text-align:center;
+  width:250px;
+}
+
+.product-card img{
+  width:100%;
+  border-radius:8px;
+}
+
+.product-card h3{
+  margin:0.8rem 0 0.4rem;
+}
+.product-card p{
+  color:#888;
+  margin-bottom:1rem;
+}
+.product-card button{
+  background-color:red;
+  border:none;
+  padding:0.6rem 1rem;
+  color:black;
+  font-weight:bold;
+  border-radius:5px;
+  cursor :pointer;
+  
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.footer{
+  background-color:#111;
+  color:#ccc;
+  padding:2rem;
+  text-align:center;
+}
+
+.footer .socials a{
+  color:gold;
+  margin:0 0 0.5rem;
+  text-decoration:none;
+}
+
